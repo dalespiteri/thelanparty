@@ -18,7 +18,7 @@ a {
 #container {
   width: 100%;
   height: 100%;
-  min-height: 500px;
+  min-height: 800px;
   background-color: #00162e;
   position: absolute;
   top: 0;
@@ -95,13 +95,16 @@ a {
   font-size: 15px;
   font-family: 'Exo 2', sans-serif;
   letter-spacing: 2px;
-  background: linear-gradient(to right, rgba(0,0,0,0) 50%, #00162e 50%);
-  background-size: 200% 100%;
-  transition: background-position 0.35s;
   cursor: pointer;
 }
 
-#cast:hover, #contact:hover {
+#cast, #contact, #episodesLink {
+  background: linear-gradient(to right, rgba(0,0,0,0) 50%, #00162e 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.35s;
+}
+
+#cast:hover, #contact:hover, #episodesLink:hover {
   background-position: -100% 0;
 }
 
@@ -154,38 +157,43 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   left: 0%;
+  padding: 50px;
 }
 
 #player {
-  width: 84%;
+  width: 100%;
   height: 250px;
   border: 10px solid white;
-  background-image: url(images/junkrat.jpg);
+  background-image: url(../images/junkrat.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-  margin-top: 50px;
 }
 
 #episode {
-  width: 84%;
+  width: 100%;
   height: auto;
   margin: 50px 0;
   font-family: 'Exo 2', sans-serif;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 #episode h2 {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: right;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: 'SFPixelateRegular', monospace;
   background-color: #00162e;
   padding: 10px 20px;
   letter-spacing: 2px;
+  display: inline-block;
 }
 
 #episode p {
@@ -193,13 +201,17 @@ a {
   font-weight: 100;
 }
 
-#episodesLink {
-  width: 84%;
+#episodesLink button {
   height: auto;
   text-align: right;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-weight: 300;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .episodeList {
@@ -207,10 +219,10 @@ a {
   bottom: 100%;
 }
 
-#playerContainer:hover .episodeList {
-  left: 0%;
+.leftOffscreen {
+  left: -100%;
 }
 
-#playerContainer:hover .currentEpisode {
-  left: -100%;
+.offscreenLeft {
+  left: 0%;
 }
