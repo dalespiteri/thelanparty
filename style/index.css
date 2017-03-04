@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'pixel';
+  src: url('../fonts/munro/munro.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,11 +67,11 @@ a {
 }
 
 #logo p {
-  font-family: 'SFPixelateRegular', monospace; 
+  font-family: 'pixel', monospace; 
   font-weight: normal; 
   font-style: normal;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   color: white;
 }
 
@@ -191,12 +196,12 @@ a {
 
 #episode h2, .episodeListLink h2 {
   text-transform: uppercase;
-  font-size: 2em;
-  font-family: 'SFPixelateRegular', monospace;
+  font-size: 30pt;
+  font-family: 'pixel', monospace;
   background-color: #00162e;
   color: white;
   padding: 10px 20px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   display: inline-block;
 }
 
@@ -220,20 +225,202 @@ a {
 
 /* HIDDEN EPISODE MENU */
 
-.episodeList {
+.episodeListcontainer {
   width: 100%;
   height: 100%;
-  padding-bottom: 30px;
   position: relative;
-  transition: left 0.5s;
   left: 100%;
   bottom: 100%;
-  overflow: scroll;
+  display: flex;
+  transition: left 0.5s;
+
 } 
 
-.episodeList::-webkit-scrollbar { 
+#backButton i {
+  position: relative;
+  right: 1px;
+}
+
+#backButton {
+  position: absolute;
+  padding: 5px 10px;
+  top: 10px;
+  right: 10px;
+  border: 1px solid rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.7);
+  text-align: right;
+  z-index: 3;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+#backButton:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+#backButton:active {
+  transform: scale(0.9);
+}
+
+#episodeList {
+  width: 43%;
+  height: 100%;
+  background: linear-gradient(#0091a5, #0061a5);
+  border: 0;
+  border-right: 3px solid white;
+  overflow: scroll;
+}
+
+#episodeList::-webkit-scrollbar { 
     display: none; 
 }
+
+#episodeList ul {
+  list-style: none;
+}
+
+#episodeList ul li {
+  width: 60%;
+  margin: 37px auto;
+  text-align: center;
+  padding: 20px 5px;
+  font-family: 'SFPixelateRegular', monospace;
+  font-size: 14pt;
+  color: white;
+  text-transform: uppercase;
+  transform: scale(1) skewY(0) translateX(0);
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+#episodeList ul li:hover {
+  width: 70%;
+  background: linear-gradient(#00162e 25%, #ffbb11 25%, #ffbb11 75%, #00162e 75%);
+  color: #00162e;
+}
+
+#episodeList ul li:active {
+  transform: scale(0.75);
+}
+
+#episodeInfo {
+  width: 57%;
+  height: 100%;
+  background-color: #060D0F;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.episodePicContainer {
+  width: 100%;
+  height: 62%;
+  background-color: red;
+  position: relative;
+  right: 100%;
+}
+
+.episodeDesContainer {
+  width: 100%;
+  height: 38%;
+  background-color: #142D34;
+  position: relative;
+  left: 100%;
+}
+
+.episodePic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  
+  left: 0%;
+  z-index: 1;
+  transition: left 0.35s;
+}
+
+#episode12pic {
+  background-image: url('http://static5.gamespot.com/uploads/original/1551/15511094/3093308-ana5.jpg');
+  background-position: top left -60px;
+}
+
+#episode11pic {
+  background-image: url('https://assets.vg247.com/current//2017/01/the_legend_of_zelda_breath_of_the_wild_new_header_finally.jpg');
+}
+
+#episode10pic {
+  background-image: url('http://orig10.deviantart.net/81d5/f/2012/106/4/1/gomez_wears_a_fez_now__fezzes_are_cool__by_sm0k1nggnu-d4wcuuq.png');
+}
+
+.episodeDes {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(#1C3B42, #000C0D);
+  border-top: 1px solid #ffbb11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 0%;
+  transition: right 0.35s;
+}
+
+.episodeDes p {
+  padding: 0 12%;
+  padding-bottom: 7%;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-family: 'exo';
+  font-weight: 100;
+}
+
+#episode12des {
+  
+}
+
+#episode11des {
+  
+}
+
+#episode10des {
+  
+}
+
+#playButton {
+  text-align: center;
+  padding: 2% 8%;
+  margin-bottom: 0;
+  background-color: white;
+  color: #00162E;
+  border: 1px solid rgba(255,255,255,0);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+#playButton:hover {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: 1px solid white;
+  padding: 2% 14%;
+}
+
+.visibleLeft {
+  left: 100%;
+  z-index: 2;
+}
+
+.visibleRight {
+  right: 100%;
+  z-index: 2;
+}
+
+/* JAVASCRIPT TOGGLE CLASSES */
 
 .leftOffscreen {
   left: -100%;
@@ -242,79 +429,3 @@ a {
 .offscreenLeft {
   left: 0%;
 }
-
-/* EPISODE LINKS */
-
-.episodeListLink {
-  width: 50%;
-  background-color: #00162e;
-  margin: 0 auto;
-  text-align: center;
-  padding: 7px 14px;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-
-.episodeListLink h4 {
-  font-family: 'SFPixelateRegular', monospace;
-  color: white;
-  text-transform: uppercase;
-  font-size: 2em;
-}
-
-/* DROP DOWN DESCRIPTION */
-
-.episodeDescription {
-  width: 100%;
-  height: auto;
-  background-color: #00162e;
-  display: none;
-}
-
-#episodeTwelve {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-}
-
-.episodeDescription p {
-  width: 46%;
-  height: auto;
-  font-size: 16pt;
-  color: white;
-  text-align: right;
-  font-weight: 100;
-  margin: 0;
-  padding: 20px 0;
-  margin-right: 7px;
-}
-
-/* EPISODE THUMBNAILS */
-
-.episodeThumbs {
-  width: 27%;
-  margin-left: 14px;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
-#episodeThumb12 {
-  background-image: url(../images/junkratThumb.png);
-}
-
-#episodeThumb11 {
-background-image: url(../images/wowThumb.png);
-}
-
-#episodeThumb10 {
-background-image: url(../images/switchThumb.png);
-}
-
-#episodeThumb9 {
-background-image: url(../images/indieThumb.png);
-}
-

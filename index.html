@@ -36,6 +36,9 @@
   </div>
   <div id="slideRight" class="slideContainer">
     <div id="playerContainer" class="slide">
+
+<!-- CURRENT EPISODE -->
+
       <div class="players currentEpisode">
         <div id="player"></div>
         <div id="episode">
@@ -46,31 +49,49 @@
         </div>
       </div>
 
-      <div class="players episodeList">
-        <div class="episodeListLink"><h4>Episode 12</h4></div>
-          <div class="episodeDescription"><div id="episodeTwelve"><p>The guys talk about the upcoming Overwatch patch and the hinted release of a new tank character. Dave chugs a das boot. Ian pontificates.</p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 11</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Daniel and Chris discuss how WoW has ruined their lives. Daniel, Chris, and Sish discuss why WoW is the best game ever made.</p><div class="episodeThumbs" id="episodeThumb11"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 10</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>The Nintendo Switch is announced and we take a trip down memory lane and discuss the storied history of Nintendo.</p><div class="episodeThumbs" id="episodeThumb10"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 9</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Dale watches Indie Game: The Movie, and we talk about how indie gaming has transformed Steam and which games we most look forward to this year.</p><div class="episodeThumbs" id="episodeThumb9"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 8</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 7</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 6</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 5</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 4</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 3</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 2</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
-        <div class="episodeListLink"><h4>Episode 1</h4></div>
-        <div class="episodeDescription"><div id="episodeTwelve"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p><div class="episodeThumbs" id="episodeThumb12"></div></div></div>
+<!-- EPISODE LIST -->
+
+      <div class="episodeListcontainer">
+        <div id="backButton"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        <div id="episodeList">
+          <ul>
+            <li id="ep12link" class="epLink">episode 12</li>
+            <li id="ep11link" class="epLink">episode 11</li>
+            <li id="ep10link" class="epLink">episode 10</li>
+            <li>episode 9</li>
+            <li>episode 8</li>
+            <li>episode 7</li>
+            <li>episode 6</li>
+            <li>episode 5</li>
+            <li>episode 4</li>
+            <li>episode 3</li>
+            <li>episode 2</li>
+            <li>episode 1</li>
+          </ul>
+        </div>
+        <div id="episodeInfo">
+          <div class="episodePicContainer">
+            <div id="episode12pic" class="episodePic visibleLeft"></div>
+            <div id="episode11pic" class="episodePic"></div>
+            <div id="episode10pic" class="episodePic"></div>
+          </div>
+          <div class="episodeDesContainer">
+            <div id="episode12des" class="episodeDes visibleRight">
+              <p>The guys talk about the upcoming Overwatch patch and the hinted release of a new tank character. Dave chugs a das boot. Ian pontificates.
+              </p>
+              <div id="playButton"><i class="fa fa-play" aria-hidden="true"></i></div>
+            </div>
+            <div id="episode11des" class="episodeDes">
+              <p>The Nintendo Switch is announced and we take a trip down memory lane and discuss the storied history of Nintendo.
+              </p>
+              <div id="playButton"><i class="fa fa-play" aria-hidden="true"></i></div>
+            </div>
+            <div id="episode10des" class="episodeDes">
+              <p>Dale watches Indie Game: The Movie, and we talk about how indie gaming has transformed Steam and which games we most look forward to this year.</p>
+              <div id="playButton"><i class="fa fa-play" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>

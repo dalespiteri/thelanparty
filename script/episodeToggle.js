@@ -1,6 +1,6 @@
-$('#episodesLink button').click(function () {
+$('#episodesLink button, #backButton').click(function () {
 	$('.currentEpisode').toggleClass('leftOffscreen');
-	$('.episodeList').toggleClass('offscreenLeft');
+	$('.episodeListcontainer').toggleClass('offscreenLeft');
 });
 
 $('.episodeListLink').click(function() {
