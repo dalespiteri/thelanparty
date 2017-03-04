@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'pixel';
-  src: url('../fonts/munro/munro.ttf');
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +62,7 @@ a {
 }
 
 #logo p {
-  font-family: 'pixel', monospace; 
+  font-family: 'SFPixelateRegular', monospace; 
   font-weight: normal; 
   font-style: normal;
   text-align: center;
@@ -197,7 +192,7 @@ a {
 #episode h2, .episodeListLink h2 {
   text-transform: uppercase;
   font-size: 30pt;
-  font-family: 'pixel', monospace;
+  font-family: 'SFPixelateRegular', monospace;
   background-color: #00162e;
   color: white;
   padding: 10px 20px;
