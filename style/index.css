@@ -1,3 +1,20 @@
+@keyframes slide {
+  from {left: -100%; opacity: 0;}
+  to {left: 0%; opacity: 1;}
+}
+
+@keyframes slideRight {
+  from {right: -100%;}
+  to {right: 0%;}
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(../font/munro.ttf);
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,11 +79,11 @@ a {
 }
 
 #logo p {
-  font-family: 'SFPixelateRegular', monospace; 
+  font-family: 'pixel', monospace; 
   font-weight: normal; 
   font-style: normal;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 
@@ -159,7 +176,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 60px;
+  padding: 45px;
 }
 
 #player {
@@ -191,16 +208,18 @@ a {
 
 #episode h2 {
   text-transform: uppercase;
-  font-size: 20pt;
-  font-family: 'SFPixelateRegular', monospace;
+  font-size: 44px;
+  font-family: 'pixel', monospace;
   background-color: #00162e;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 40px;
   letter-spacing: 2px;
   display: inline-block;
 }
 
 #episode p {
+  font-size: 1.1em;
+  line-height: 1.5em;
   text-align: justify;
   font-weight: 100;
 }
@@ -262,8 +281,8 @@ a {
   width: 43%;
   height: 100%;
   background: linear-gradient(#0091a5, #0061a5);
-  border: 0;
-  border-right: 3px solid white;
+  border-right: 3pt solid white;
+  box-shadow: 10px 0 10px black;
   overflow: scroll;
 }
 
@@ -276,33 +295,33 @@ a {
 }
 
 #episodeList ul li {
-  width: 60%;
+  width: 73%;
+  background-color: #00162e;
   margin: 37px auto;
   text-align: center;
-  padding: 20px 5px;
-  font-family: 'SFPixelateRegular', monospace;
-  font-size: 14pt;
+  padding: 12px;
+  font-family: 'pixel', monospace;
+  font-size: 34px;
   color: white;
   text-transform: uppercase;
   transform: scale(1) skewY(0) translateX(0);
   cursor: pointer;
-  transition: all 0.35s;
+  transition: all 0.2s;
 }
 
 #episodeList ul li:hover {
-  width: 70%;
-  background: linear-gradient(#00162e 25%, #ffbb11 25%, #ffbb11 75%, #00162e 75%);
+  transform: scale(1.15);
   color: #00162e;
+  background-color: #FFC420;
 }
 
 #episodeList ul li:active {
-  transform: scale(0.75);
+  transform: scale(1.1);
 }
 
 #episodeInfo {
   width: 57%;
   height: 100%;
-  background-color: #060D0F;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -310,18 +329,22 @@ a {
 
 .episodePicContainer {
   width: 100%;
-  height: 62%;
+  height: 61%;
   background-color: red;
   position: relative;
-  right: 100%;
+}
+
+#playButton {
+  width: 100%;
+  height: 4%;
+  background: linear-gradient(to right, #FFC420, #F68420);
 }
 
 .episodeDesContainer {
   width: 100%;
-  height: 38%;
+  height: 35%;
   background-color: #142D34;
   position: relative;
-  left: 100%;
 }
 
 .episodePic {
@@ -330,79 +353,38 @@ a {
   position: absolute;
   background-size: cover;
   background-position: center;
-  
-  left: 0%;
-  z-index: 1;
-  transition: left 0.35s;
 }
 
 #episode12pic {
-  background-image: url('http://static5.gamespot.com/uploads/original/1551/15511094/3093308-ana5.jpg');
-  background-position: top left -60px;
+  background-image: url('../images/overwatch.jpg');
 }
 
 #episode11pic {
-  background-image: url('https://assets.vg247.com/current//2017/01/the_legend_of_zelda_breath_of_the_wild_new_header_finally.jpg');
+  background-image: url('../images/zelda.jpg');
 }
 
 #episode10pic {
-  background-image: url('http://orig10.deviantart.net/81d5/f/2012/106/4/1/gomez_wears_a_fez_now__fezzes_are_cool__by_sm0k1nggnu-d4wcuuq.png');
+  background-image: url('../images/fez.jpg');
 }
 
 .episodeDes {
   width: 100%;
   height: 100%;
+  padding-top: 32px;
+  background: linear-gradient(#142D34, #000C0D);
   position: absolute;
-  background: linear-gradient(#1C3B42, #000C0D);
-  border-top: 1px solid #ffbb11;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  right: 0%;
-  transition: right 0.35s;
+  justify-content: flex-start;
 }
 
 .episodeDes p {
-  padding: 0 12%;
-  padding-bottom: 7%;
-  color: white;
   text-align: center;
-  font-family: monospace;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  font-family: 'exo';
+  font-size: 1.25em;
+  line-height: 1.5em;
   font-weight: 100;
-}
-
-#episode12des {
-  
-}
-
-#episode11des {
-  
-}
-
-#episode10des {
-  
-}
-
-#playButton {
-  text-align: center;
-  padding: 2% 8%;
-  margin-bottom: 0;
-  background-color: white;
-  color: #00162E;
-  border: 1px solid rgba(255,255,255,0);
-  cursor: pointer;
-  transition: all 0.25s;
-}
-
-#playButton:hover {
-  background-color: rgba(0,0,0,0);
   color: white;
-  border: 1px solid white;
-  padding: 2% 14%;
+  padding: 0 32px;
 }
 
 .visibleLeft {
@@ -417,10 +399,21 @@ a {
 
 /* JAVASCRIPT TOGGLE CLASSES */
 
-.leftOffscreen {
+.moveLeft {
   left: -100%;
 }
 
 .offscreenLeft {
   left: 0%;
 }
+
+.active {
+  animation-name: slide;
+  animation-duration: 0.25s;
+}
+
+.active2 {
+  animation-name: slideRight;
+  animation-duration: 0.25s;
+}
+

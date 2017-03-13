@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"flex-start"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
 				"pos",
 				"background-position"
 			],
@@ -18,10 +34,6 @@
 			[
 				"ali",
 				"align-items"
-			],
-			[
-				"f",
-				"flex-end"
 			],
 			[
 				"spa",
@@ -68,10 +80,6 @@
 				"url()"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"backgrou",
 				"background-image"
 			],
@@ -94,10 +102,6 @@
 			[
 				"shadow",
 				"box-shadow"
-			],
-			[
-				"box",
-				"box-sizing"
 			],
 			[
 				"alite",
@@ -376,10 +380,6 @@
 				"text-decoration"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"col",
 				"color"
 			]
@@ -391,16 +391,19 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4277,
+				"buffer_size": 3810,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "$(document).ready(function() {\n\n\n\n\t$('#episodesLink button, #backButton').click(function () {\n\t\t$('.currentEpisode').toggleClass('moveLeft');\n\t\t$('.episodeListcontainer').toggleClass('offscreenLeft');\n\t});\n\n\t//Episode List Slides//\n\n\t$('.epLink').click(function() {\n\t  $('.episodePic').removeClass('active');\n\t  $('.episodeDes').removeClass('active2');\n\t});\n\n\t$('#ep12link').click(function() {\n\t  $('#episode12des').addClass('active2');\n\t  $('#episode12pic').addClass('active');\n\t  $('#episode12pic').appendTo($('.episodePicContainer'));\n\t  $('#episode12des').appendTo($('.episodeDesContainer'));\n\n\t});\n\n\t$('#ep11link').click(function() {\n\t  $('#episode11des').addClass('active2');\n\t  $('#episode11pic').addClass('active');\n\t  $('#episode11pic').appendTo($('.episodePicContainer'));\n\t  $('#episode11des').appendTo($('.episodeDesContainer'));\n\n\t});\n\n\t$('#ep10link').click(function() {\n\t  $('#episode10des').addClass('active2');\n\t  $('#episode10pic').addClass('active');\n\t  $('#episode10pic').appendTo($('.episodePicContainer'));\n\t  $('#episode10des').appendTo($('.episodeDesContainer'));\n\t});\n\n});",
 			"file": "script/episodeToggle.js",
+			"file_size": 1181,
+			"file_write_time": 131338445741618840,
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 1096,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -409,7 +412,7 @@
 			"file": "style/index.css",
 			"settings":
 			{
-				"buffer_size": 7381,
+				"buffer_size": 6912,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -562,6 +565,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"visibleLeft",
+			"visibleRight",
+			"15%",
+			"20%",
+			"Pixel",
+			"pixel",
 			"SFPixelateRegular",
 			"div id=\"episodeThumb",
 			"episodePhoto",
@@ -621,7 +630,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -630,15 +639,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4277,
+						"buffer_size": 3810,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2154,
-								2154
+								1300,
+								1300
 							]
 						],
 						"settings":
@@ -648,10 +657,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -660,15 +669,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 1096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								36,
-								36
+								32,
+								32
 							]
 						],
 						"settings":
@@ -679,7 +688,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -694,15 +703,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7381,
+						"buffer_size": 6912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4449,
-								4449
+								5468,
+								5468
 							]
 						],
 						"settings":
@@ -712,7 +721,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3210.0,
+						"translation.y": 4032.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

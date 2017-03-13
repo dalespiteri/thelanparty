@@ -1,30 +1,40 @@
-$('#episodesLink button, #backButton').click(function () {
-	$('.currentEpisode').toggleClass('leftOffscreen');
-	$('.episodeListcontainer').toggleClass('offscreenLeft');
-});
+$(document).ready(function() {
 
-$('.episodeListLink').click(function() {
-	$(this).next('div').slideToggle(200);
-});
+	$('slideLeft').attr('id', 'slideLeftLoaded');
 
-//Episode List Slides//
+	$('#episodesLink button, #backButton').click(function () {
+		$('.currentEpisode').toggleClass('moveLeft');
+		$('.episodeListcontainer').toggleClass('offscreenLeft');
+	});
 
-$('.epLink').click(function() {
-  $('.episodePic').removeClass('visibleLeft');
-  $('.episodeDes').removeClass('visibleRight');
-});
+	//Episode List Slides//
 
-$('#ep12link').click(function() {
-  $('#episode12des').addClass('visibleRight');
-  $('#episode12pic').addClass('visibleLeft');
-});
+	$('.epLink').click(function() {
+	  $('.episodePic').removeClass('active');
+	  $('.episodeDes').removeClass('active2');
+	});
 
-$('#ep11link').click(function() {
-  $('#episode11des').addClass('visibleRight');
-  $('#episode11pic').addClass('visibleLeft');
-});
+	$('#ep12link').click(function() {
+	  $('#episode12des').addClass('active2');
+	  $('#episode12pic').addClass('active');
+	  $('#episode12pic').appendTo($('.episodePicContainer'));
+	  $('#episode12des').appendTo($('.episodeDesContainer'));
 
-$('#ep10link').click(function() {
-  $('#episode10des').addClass('visibleRight');
-  $('#episode10pic').addClass('visibleLeft');
+	});
+
+	$('#ep11link').click(function() {
+	  $('#episode11des').addClass('active2');
+	  $('#episode11pic').addClass('active');
+	  $('#episode11pic').appendTo($('.episodePicContainer'));
+	  $('#episode11des').appendTo($('.episodeDesContainer'));
+
+	});
+
+	$('#ep10link').click(function() {
+	  $('#episode10des').addClass('active2');
+	  $('#episode10pic').addClass('active');
+	  $('#episode10pic').appendTo($('.episodePicContainer'));
+	  $('#episode10des').appendTo($('.episodeDesContainer'));
+	});
+
 });
