@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-	$('slideLeft').attr('id', 'slideLeftLoaded');
+$('.slideGoneUp').addClass('slideDown');
+$('.slideGoneDown').addClass('slideUp');
 
 	$('#episodesLink button, #backButton').click(function () {
 		$('.currentEpisode').toggleClass('moveLeft');
