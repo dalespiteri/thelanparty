@@ -106,8 +106,8 @@ a {
 }
 
 #cast, #contact {
-  width: 90px;
-  padding: 5px 0;
+  min-width: 100px;
+  padding: 5px 10px;
   border: 1px solid white;
   margin-top: 7px;
   color: white;
@@ -117,6 +117,7 @@ a {
   font-family: 'Exo 2', sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: min-width 1s;
 }
 
 #cast, #contact, #episodesLink {
