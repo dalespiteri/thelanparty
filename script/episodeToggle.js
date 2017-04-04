@@ -1,18 +1,25 @@
 $(document).ready(function() {
 
-//Intro Slides//
+//Intro Slides
 
 $('.slideGoneUp').addClass('slideDown');
 $('.slideGoneDown').addClass('slideUp');
 
-//episode slide toggle//
+//episode slide toggle
 
 $('#episodesLink button, #backButton').click(function () {
 	$('.currentEpisode').toggleClass('moveLeft');
 	$('.episodeListcontainer').toggleClass('offscreenLeft');
 });
 
-//Episode List Slides//
+//cast slide toggle
+
+$('#cast, #castClose').click(function () {
+	$('.titleDiv').toggleClass('moveLeft');
+	$('.castContainer').toggleClass('offscreenLeft');
+});
+
+//Episode List Slides
 
 $('.epLink').click(function() {
   $('.episodePic').removeClass('active');
@@ -42,7 +49,7 @@ $('#ep10link').click(function() {
   $('#episode10des').appendTo($('.episodeDesContainer'));
 });
 
-//contact toggle//
+//contact toggle
 
 $('#contact')
 

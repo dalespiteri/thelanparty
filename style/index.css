@@ -38,7 +38,7 @@ a {
   width: 100%;
   height: 100%;
   min-height: 800px;
-  background-color: #00162e;
+  background: radial-gradient(#000a16, #00162e);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -50,17 +50,118 @@ a {
 
 #slideLeft {
   margin-right: 8px;
+  overflow: hidden;
 }
 
-#titleDiv {
+.castContainer {
+  background: linear-gradient(#f68420, #ffc420);
+  position: relative;
+  width: 100%;
+  height: 88%;
+  bottom: 88%;
+  left: 100%;
+  transition: bottom 0.75s, left 0.75s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.castMember {
+  width: 69%;
+  height: 24%;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sishCast {
+  flex-direction: row-reverse;
+}
+
+#sishCast .castAvatar img {
+  transform: scaleX(-1);
+}
+
+.castAvatar {
+  width: 29%;
+}
+
+.castAvatar img {
+  width: 100%;
+}
+
+.castBio {
+  position: relative;
+  width: 60%;
+  height: 85%;
+  padding: 20px;
+  color: black;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.castBio h1 {
+  color: white;
+  font-family: pixel;
+  text-transform: uppercase;
+}
+
+.castBioRight:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+}
+
+.castBioLeft:before {
+  content: '';
+  position: absolute;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+}
+
+#castClose, #backButton {
+  position: absolute;
+  width: 5%;
+  top: 10px;
+  right: 10px;
+  opacity: 0.75;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#backButton:hover {
+  opacity: 1;
+}
+
+#castClose:hover {
+  opacity: 1;
+}
+
+.titleDiv {
   height: 88%;
   width: 100%;
   background: linear-gradient(#f68420, #ffc420);
-  box-shadow: -40px 20px 100px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  left: 0%;
 }
 
 #logo {
@@ -164,7 +265,6 @@ a {
   height: 88%;
   width: 100%;
   background: linear-gradient(#0091a5, #0061a5);
-  box-shadow: 40px -20px 100px rgba(0,0,0,0.25);
   overflow: hidden;
 }
 
@@ -216,7 +316,6 @@ a {
 #playerPlayButton:hover {
   width: 100%;
   height: 100%;
-  font-size: 50px;
 }
 
 #episode {
@@ -277,35 +376,7 @@ a {
   bottom: 100%;
   display: flex;
   transition: left 0.5s;
-
 } 
-
-#backButton i {
-  position: relative;
-  right: 1px;
-}
-
-#backButton {
-  position: absolute;
-  padding: 5px 10px;
-  top: 10px;
-  right: 10px;
-  border: 1px solid rgba(255,255,255,0.7);
-  color: rgba(255,255,255,0.7);
-  text-align: right;
-  z-index: 3;
-  cursor: pointer;
-  transition: all 0.1s;
-}
-
-#backButton:hover {
-  border: 1px solid white;
-  color: white;
-}
-
-#backButton:active {
-  transform: scale(0.9);
-}
 
 #episodeList {
   width: 43%;
@@ -378,20 +449,8 @@ a {
   transition: all 0.25s;
 }
 
-#playButtonContainer:hover {
-    background: linear-gradient(to right, #F68420, #FFC420);
-  }
-
-#playButton i {
-  font-size: 20px;
-  color: white;
-  display: block;
-  transition: all 0.5s;
-}
-
-#playButtonContainer:hover #playButton i {
-  text-shadow: 2px -2px 0px rgba(0,0,0,0.75);
-  transform: rotateX(180deg);
+#playButton {
+  height: 50%;
 }
 
 .episodeDesContainer {
@@ -474,7 +533,7 @@ a {
 .slideGoneUp {
   position: relative;
   bottom: 100%;
-  transition: bottom 0.75s;
+  transition: all 0.75s;
 }
 
 .slideDown {
