@@ -405,20 +405,18 @@ a {
   font-size: 34px;
   color: white;
   text-transform: uppercase;
-  transform: scale(1) skewY(0) translateX(0);
   cursor: pointer;
   transition: all 0.2s;
 }
 
 #episodeList ul li:hover {
-  transform: scale(1.15);
   color: #00162e;
   background-color: #FFC420;
   box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
 }
 
 #episodeList ul li:active {
-  transform: scale(1.1);
+  background-color: yellow;
 }
 
 #episodeInfo {
