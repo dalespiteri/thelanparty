@@ -417,13 +417,10 @@
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n  <title>The Lan Party: Gaming Podcast</title>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style/index.css\">\n  <link href=\"https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900\" rel=\"stylesheet\">\n  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\"></script>\n  <script src=\"https://use.fontawesome.com/bd3d4ecd65.js\"></script>\n</head>\n<body>\n\n<div id=\"container\">\n\n<!-- TITLE SLIDE -->\n\n  <div id=\"slideLeft\" class=\"slideContainer\">\n\n    <div class=\"slide titleDiv slideGoneUp\">\n      <div id=\"logo\">\n        <img src=\"images/logo.png\">\n        <p>Weekly musing into the world of gaming\n        from ugly nerds, and married virgins.</p>\n      </div>\n      <div id=\"titleBottom\">\n        <div id=\"buttons\">\n          <div id=\"cast\">\n            <p>cast</p>\n          </div>\n          <div id=\"contact\">\n            <p>contact</p>\n          </div>\n        </div>\n        <div id=\"social\">\n          <div id=\"facebook\"><a href=\"http://www.facebook.com\" target=\"_blank\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a></div>\n          <div id=\"twitter\"><a href=\"http://www.twitter.com\" target=\"_blank\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a></div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"castContainer\">\n    <img src=\"images/backIcon.png\" id=\"castClose\">\n      <div id=\"danielCast\" class=\"castMember\">\n        <div class=\"castAvatar\"><img src=\"images/daniel.png\" /></div>\n        <div class=\"castBio castBioRight\">\n          <h1>daniel</h1>\n          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>\n        </div>\n      </div>\n      <div id=\"sishCast\" class=\"castMember\">\n        <div class=\"castAvatar\"><img src=\"images/sish.png\" /></div>\n        <div class=\"castBio castBio\">\n          <h1>sish</h1>\n          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>\n        </div>\n      </div>\n      <div id=\"daleCast\" class=\"castMember\">\n        <div class=\"castAvatar\"><img src=\"images/dale.png\" /></div>\n        <div class=\"castBio castBioRight\">\n          <h1>dale</h1>\n          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n<!-- CURRENT EPISODE -->\n\n  <div id=\"slideRight\" class=\"slideContainer\">\n    <div id=\"playerContainer\" class=\"slide, slideGoneDown\">\n      <div class=\"players, currentEpisode\">\n        <div id=\"player\"><div id=\"playerPlayButton\"><i class=\"fa fa-play\" aria-hidden=\"true\"></i></div></div>\n        <div id=\"episode\">\n          <h2>episode 12</h2>\n          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat null</p>\n        </div>\n        <div id=\"episodesLink\"><button>full episode list</button>\n        </div>\n      </div>\n\n<!-- EPISODE LIST -->\n\n      <div class=\"episodeListcontainer\">\n        <img src=\"images/backIcon.png\" id=\"backButton\" />\n        <div id=\"episodeList\">\n          <ul>\n            <li id=\"ep12link\" class=\"epLink\">episode 12</li>\n            <li id=\"ep11link\" class=\"epLink\">episode 11</li>\n            <li id=\"ep10link\" class=\"epLink\">episode 10</li>\n            <li>episode 9</li>\n            <li>episode 8</li>\n            <li>episode 7</li>\n            <li>episode 6</li>\n            <li>episode 5</li>\n            <li>episode 4</li>\n            <li>episode 3</li>\n            <li>episode 2</li>\n            <li>episode 1</li>\n          </ul>\n        </div>\n        <div id=\"episodeInfo\">\n          <div class=\"episodePicContainer\">\n            <div id=\"episode10pic\" class=\"episodePic\"></div>\n            <div id=\"episode11pic\" class=\"episodePic\"></div>\n            <div id=\"episode12pic\" class=\"episodePic\"></div>\n          </div>\n          <div id=\"playButtonContainer\"><img src=\"images/playButton.png\" id=\"playButton\"></div>\n          <div class=\"episodeDesContainer\">\n            <div id=\"episode10des\" class=\"episodeDes\"><p>Dale watches Indie Game: The Movie, and we talk about how indie gaming has transformed Steam and which games we most look forward to this year.</p></div>\n            <div id=\"episode11des\" class=\"episodeDes\"><p>The Nintendo Switch is announced and we take a trip down memory lane to discuss the storied history of Nintendo.</p></div>\n            <div id=\"episode12des\" class=\"episodeDes\"><p>The guys talk about the upcoming Overwatch patch and the hinted release of a new tank character. Dave chugs a das boot. Ian pontificates.</p></div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n<script src=\"script/episodeToggle.js\"></script>\n</body>\n</html>",
 			"file": "index.html",
-			"file_size": 5209,
-			"file_write_time": 131358064050406857,
 			"settings":
 			{
-				"buffer_size": 5085,
+				"buffer_size": 5089,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -432,7 +429,7 @@
 			"file": "style/index.css",
 			"settings":
 			{
-				"buffer_size": 9060,
+				"buffer_size": 8996,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -585,6 +582,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transitio",
+			"transform",
+			"box",
 			"slideRight",
 			"visibleLeft",
 			"visibleRight",
@@ -688,15 +688,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5085,
+						"buffer_size": 5089,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1858,
-								1858
+								1862,
+								1862
 							]
 						],
 						"settings":
@@ -706,10 +706,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -724,15 +724,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9060,
+						"buffer_size": 8996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2388,
-								2388
+								2074,
+								2074
 							]
 						],
 						"settings":
@@ -742,10 +742,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1514.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -831,7 +831,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

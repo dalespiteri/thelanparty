@@ -60,11 +60,11 @@ a {
   height: 88%;
   bottom: 88%;
   left: 100%;
-  transition: bottom 0.75s, left 0.75s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s;
 }
 
 .castMember {
@@ -162,6 +162,7 @@ a {
   justify-content: space-between;
   align-items: center;
   left: 0%;
+  transition: all 0.5s;
 }
 
 #logo {
@@ -512,10 +513,12 @@ a {
 
 .moveLeft {
   left: -100%;
+  transition: all 0.5s;
 }
 
 .offscreenLeft {
   left: 0%;
+  transition: all 0.5s;
 }
 
 .active {
@@ -531,19 +534,21 @@ a {
 .slideGoneUp {
   position: relative;
   bottom: 100%;
-  transition: all 0.75s;
+  transition: all 0.5s;
 }
 
 .slideDown {
   bottom: 0%;
+  transition: all 0.5s;
 }
 
 .slideGoneDown {
   position: relative;
   top: 100%;
-  transition: top 0.75s;
+  transition: all 0.5s;
 }
 
 .slideUp {
   top: 0%;
+  transition: all 0.5s;
 }
