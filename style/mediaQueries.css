@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 
 /*main css*/
 
@@ -41,3 +41,11 @@
   }
 
 }
+
+@media only screen and (max-width: 800px) {
+
+	.slideContainer {
+		width: 100%;
+	}
+}
+
