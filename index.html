@@ -2,7 +2,12 @@
 <html>
 <head>
   <title>The Lan Party: Gaming Podcast</title>
-  <link rel="stylesheet" type="text/css" href="style/index.css">
+  <link rel="stylesheet" type="text/css" href="style/general.css">
+  <link rel="stylesheet" type="text/css" href="style/leftSlide.css">
+  <link rel="stylesheet" type="text/css" href="style/rightSlide.css">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/toggleClasses.css">
+  <link rel="stylesheet" type="text/css" href="style/mediaQueries.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/bd3d4ecd65.js"></script>
@@ -11,16 +16,20 @@
 
 <div id="container">
 
-<!-- TITLE SLIDE -->
+<!-- LEFT SLIDE -->
 
   <div id="slideLeft" class="slideContainer">
 
+<!-- TITLE PAGE SLIDE -->
+
     <div class="slide titleDiv slideGoneUp">
+
       <div id="logo">
         <img src="images/logo.png">
         <p>Weekly musing into the world of gaming
         from ugly nerds, and married virgins.</p>
       </div>
+
       <div id="titleBottom">
         <div id="buttons">
           <div id="cast">
@@ -36,6 +45,8 @@
         </div>
       </div>
     </div>
+
+<!-- OFFSCREEN CAST SLIDE -->
 
     <div class="castContainer">
     <img src="images/backIcon.png" id="castClose">
@@ -62,12 +73,17 @@
       </div>
     </div>
 
-  </div>
+<!-- CAST SLIDE END -->
 
-<!-- CURRENT EPISODE -->
+  </div> <!-- LEFT SLIDE END -->
+
+<!-- RIGHT SLIDE -->
 
   <div id="slideRight" class="slideContainer">
     <div id="playerContainer" class="slide, slideGoneDown">
+
+<!-- CURRENT EPISODE -->
+
       <div class="players, currentEpisode">
         <div id="player"><div id="playerPlayButton"><i class="fa fa-play" aria-hidden="true"></i></div></div>
         <div id="episode">
@@ -80,7 +96,7 @@
 
 <!-- EPISODE LIST -->
 
-      <div class="episodeListcontainer">
+      <div class="episodeListContainer">
         <img src="images/backIcon.png" id="backButton" />
         <div id="episodeList">
           <ul>
@@ -113,9 +129,15 @@
         </div>
       </div>
 
+<!-- EPIDOSE LIST END -->
+
     </div>
   </div>
-</div>
+
+<!-- RIGHT SLIDE END -->
+
+</div> <!-- CONTAINER CLOSE -->
+
 <script src="script/episodeToggle.js"></script>
 </body>
 </html>

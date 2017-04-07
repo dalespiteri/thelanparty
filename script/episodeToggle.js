@@ -9,7 +9,7 @@ $('.slideGoneDown').addClass('slideUp');
 
 $('#episodesLink button, #backButton').click(function () {
 	$('.currentEpisode').toggleClass('moveLeft');
-	$('.episodeListcontainer').toggleClass('offscreenLeft');
+	$('.episodeListContainer').toggleClass('offscreenLeft');
 });
 
 //cast slide toggle

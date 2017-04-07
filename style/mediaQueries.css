@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1000px) {
+
+/*main css*/
+
+  #container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    min-height: none;
+    position: static;
+  }
+
+  .slideContainer {
+  	height: 800px;
+  }
+
+/*left slide*/
+
+  #slideLeft {
+  	margin-right: 0;
+  }
+
+  .titleDiv {
+  	height: 100%;
+  }
+
+  .castContainer {
+  	height: 100%;
+  	bottom: 100%;
+  }
+
+/*right slide*/
+
+  #slideRight {
+  	margin-left: 0;
+  	display: block;
+  }
+
+  #playerContainer {
+  	height: 100%;
+  }
+
+}
