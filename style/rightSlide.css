@@ -95,6 +95,7 @@
   line-height: 1.5em;
   text-align: justify;
   font-weight: 100;
+  width: 100%;
 }
 
 #episodesLink button {
@@ -138,16 +139,37 @@
   color: white;
   border: 1px solid white;
   text-transform: uppercase;
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
-  padding: 5px;
   width: 200px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
+  position: relative;
 }
 
-#episodeSelect i {
-  position: relative;
-  bottom: 3px;
+#episodeClickLink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: transparent;
+}
+
+#episodeSelectText {
+  width: 100%;
+}
+
+#episodeSelectIcon {
+  height: 100%;
+}
+
+#episodeSelectIcon img {
+  height: 100%;
 }
 
 #episodeSelectMenu {
@@ -157,10 +179,12 @@
   overflow-y: scroll;
   position: absolute;
   top: 100%;
+  left: 10px;
 }
 
 #episodeSelectMenu li {
   padding: 7px;
+  list-style: none;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -226,8 +250,7 @@
 }
 
 .episodePlay:hover {
-  background-color: #ffc420;
-  color: #00162e;
+  background-color: #113E53;
 }
 
 #episode1 {

@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="style/toggleClasses.css">
   <link rel="stylesheet" type="text/css" href="style/mediaQueries.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favIcon.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/bd3d4ecd65.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -99,7 +100,15 @@
 
       <div class="episodeListContainer">
         <div id="episodeSelectContainer">
-          <div id="episodeSelect">select an episode &ensp;<i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+          <div id="episodeSelect">
+          <div id="episodeClickLink"></div>
+            <div id="episodeSelectText">
+              <p>select an episode</p>
+            </div>
+            <div id="episodeSelectIcon">
+              <img src="images/downArrow.png" />
+            </div>
+          </div>
           <img src="images/backIcon.png" id="episodeBackButton" class="backButton" />
           <div id="episodeSelectMenu" class="scrollStyle hidden">
             <ul>
@@ -210,7 +219,7 @@
   </div>
 
 <!-- RIGHT SLIDE END -->
-
+<footer>The LAN Party &copy; website design by Dale Spiteri</footer>
 </div> <!-- CONTAINER CLOSE -->
 
 <script src="script/episodeToggle.js"></script>

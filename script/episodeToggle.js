@@ -47,7 +47,7 @@ function closeDropdown(event) {
   const target = $(event.target)
   
   // Make sure that the dropdown or button didn't get clicked
-  if (!target.is('#episodeSelect') ) {
+  if (!target.is('#episodeClickLink') ) {
     // Hide the dropdown
     $('#episodeSelectMenu').addClass('hidden')
 
@@ -58,7 +58,7 @@ function closeDropdown(event) {
 
 
 // Add the event listener we need to start with
-$('#episodeSelect').on('click', openDropdown)
+$('#episodeClickLink').on('click', openDropdown)
 
 
 //EPISODE LIST FUNCTIONS END//
