@@ -17,6 +17,7 @@ $('#episodesLink button, #episodeBackButton').click(function () {
 $('#cast, #castBackButton').click(function () {
 	$('.titleDiv').toggleClass('moveLeft');
 	$('.castContainer').toggleClass('offscreenLeft');
+  $('#castBackground').toggleClass('castBackgroundActive');
 });
 
 //contact toggle
@@ -47,7 +48,7 @@ function closeDropdown(event) {
   const target = $(event.target)
   
   // Make sure that the dropdown or button didn't get clicked
-  if (!target.is('#episodeSelect') ) {
+  if (!target.is('#episodeClickLink') ) {
     // Hide the dropdown
     $('#episodeSelectMenu').addClass('hidden')
 
@@ -58,7 +59,7 @@ function closeDropdown(event) {
 
 
 // Add the event listener we need to start with
-$('#episodeSelect').on('click', openDropdown)
+$('#episodeClickLink').on('click', openDropdown)
 
 
 //EPISODE LIST FUNCTIONS END//
@@ -87,6 +88,8 @@ episodeSwitch('#ep4ListItem', '#episode4');
 episodeSwitch('#ep3ListItem', '#episode3');
 episodeSwitch('#ep2ListItem', '#episode2');
 episodeSwitch('#ep1ListItem', '#episode1');
+
+//cast background//
 
 
 

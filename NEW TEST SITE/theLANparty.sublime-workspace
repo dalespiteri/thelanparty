@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"episo",
+				"episodeSelect"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"episodeS",
+				"episodeSelectMenu"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
 				"al",
 				"align-items"
 			],
@@ -18,10 +54,6 @@
 			[
 				"backg",
 				"background-color"
-			],
-			[
-				"s",
-				"space-around"
 			],
 			[
 				"transiti",
@@ -48,10 +80,6 @@
 				"font-size"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"box",
 				"box-shadow"
 			],
@@ -62,10 +90,6 @@
 			[
 				"overflo",
 				"overflow-y"
-			],
-			[
-				"di",
-				"div\tTag"
 			],
 			[
 				"ali",
@@ -256,10 +280,6 @@
 				"hiddenHours"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"bor",
 				"border"
 			],
@@ -408,45 +428,28 @@
 	"buffers":
 	[
 		{
-			"file": "style/mediaQueries.css",
-			"settings":
-			{
-				"buffer_size": 595,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
-			"settings":
-			{
-				"buffer_size": 896,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5722,
+				"buffer_size": 11067,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style/main.css",
+			"file": "script/episodeToggle.js",
 			"settings":
 			{
-				"buffer_size": 258,
+				"buffer_size": 2253,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style/rightSlide.css",
+			"file": "style/general.css",
 			"settings":
 			{
-				"buffer_size": 4344,
+				"buffer_size": 589,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -455,7 +458,53 @@
 			"file": "style/leftSlide.css",
 			"settings":
 			{
-				"buffer_size": 3530,
+				"buffer_size": 3390,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 655,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/mediaQueries.css",
+			"settings":
+			{
+				"buffer_size": 680,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/rightSlide.css",
+			"settings":
+			{
+				"buffer_size": 5146,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/toggleClasses.css",
+			"settings":
+			{
+				"buffer_size": 550,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/index.css",
+			"settings":
+			{
+				"buffer_size": 9009,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -492,14 +541,22 @@
 	},
 	"file_history":
 	[
-		"/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/index.html",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/script/episodeToggle.js",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/leftSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/main.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/rightSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/toggleClasses.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/productList.js",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/main.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/rightSlide.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.html",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/mediaQueries.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftSlide.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/script/episodeToggle.js",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.html",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/toggleClasses.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/general.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/main.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/index.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftTitle.css",
 		"/C/Users/Dale Spiteri/index.php",
@@ -511,7 +568,6 @@
 		"/D/Work/Web Dev/theLANparty/index.html",
 		"/D/Work/Web Dev/theLANparty/dalespiteri.github.io/index.html",
 		"/D/Work/Web Dev/LOW Website/Draft 4/script/slider.js",
-		"/D/Work/Web Dev/LOW Website/Draft 4/script/productList.js",
 		"/D/Work/Web Dev/LOW Website/Draft 4/script/contactSlide.js",
 		"/D/Work/Web Dev/LOW Website/Draft 4/style/events.css",
 		"/D/Work/Web Dev/LOW Website/Draft 4/style/slider.css",
@@ -615,6 +671,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pixel",
 			"transitio",
 			"transform",
 			"box",
@@ -684,82 +741,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "style/mediaQueries.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								593,
-								593
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 896,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5722,
+						"buffer_size": 11067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								833
+								874,
+								874
 							]
 						],
 						"settings":
@@ -772,60 +771,60 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "script/episodeToggle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1824,
+								1824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "style/main.css",
+					"buffer": 2,
+					"file": "style/general.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 258,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "style/rightSlide.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								141,
-								141
+								587,
+								587
 							]
 						],
 						"settings":
@@ -842,20 +841,80 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "style/leftSlide.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3530,
+						"buffer_size": 3390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "style/mediaQueries.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
 							]
 						],
 						"settings":
@@ -869,6 +928,96 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "style/rightSlide.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2911,
+								2911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1890.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "style/toggleClasses.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "style/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

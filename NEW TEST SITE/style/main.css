@@ -15,22 +15,12 @@
   justify-content: center;
 }
 
-#castClose {
+.backButton {
   position: absolute;
-  width: 5%;
-  top: 10px;
-  right: 10px;
-  opacity: 0.75;
+  top: 0;
+  right: 0;
+  width: 50px;
   cursor: pointer;
-  z-index: 3;
-}
-
-#backButton:hover {
-  opacity: 1;
-}
-
-#castClose:hover {
-  opacity: 1;
 }
 
 /*scroll bar styling*/
@@ -49,13 +39,5 @@
 
 .scrollStyle::-webkit-scrollbar-thumb
 {
-  background-color: #00162e; 
-}
-
-.backButton {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50px;
-  cursor: pointer;
+  background-color: #113E53; 
 }

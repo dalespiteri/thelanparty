@@ -1,0 +1,48 @@
+/* INTRO SLIDES */
+
+.slideGoneUp {
+  position: relative;
+  bottom: 100%;
+  transition: all 0.5s;
+}
+
+.slideDown {
+  bottom: 0%;
+  transition: all 0.5s;
+}
+
+.slideGoneDown {
+  position: relative;
+  top: 100%;
+  transition: all 0.5s;
+}
+
+.slideUp {
+  top: 0%;
+  transition: all 0.5s;
+}
+
+/* TILE SLIDES */
+
+.moveLeft {
+  left: -100%;
+  transition: all 0.5s;
+}
+
+.offscreenLeft {
+  left: 0%;
+  transition: all 0.5s;
+}
+
+/* EPISODE LIST PICTURE TRANSITIONS */
+
+.episodeActive {
+  z-index: 1;
+  opacity: 1;
+}
+
+/*EPISODE LIST MENU*/
+
+.hidden {
+  display: none;
+}

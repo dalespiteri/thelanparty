@@ -1,0 +1,28 @@
+@keyframes slide {
+  from {left: -100%; opacity: 0;}
+  to {left: 0%; opacity: 1;}
+}
+
+@keyframes slideRight {
+  from {right: -100%;}
+  to {right: 0%;}
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(../font/munro.ttf);
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}

@@ -17,6 +17,7 @@ $('#episodesLink button, #episodeBackButton').click(function () {
 $('#cast, #castBackButton').click(function () {
 	$('.titleDiv').toggleClass('moveLeft');
 	$('.castContainer').toggleClass('offscreenLeft');
+  $('#castBackground').toggleClass('castBackgroundActive');
 });
 
 //contact toggle
@@ -87,6 +88,8 @@ episodeSwitch('#ep4ListItem', '#episode4');
 episodeSwitch('#ep3ListItem', '#episode3');
 episodeSwitch('#ep2ListItem', '#episode2');
 episodeSwitch('#ep1ListItem', '#episode1');
+
+//cast background//
 
 
 

@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="style/toggleClasses.css">
   <link rel="stylesheet" type="text/css" href="style/mediaQueries.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favIcon.png" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/bd3d4ecd65.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -50,26 +51,33 @@
 <!-- OFFSCREEN CAST SLIDE -->
 
     <div class="castContainer">
-    <img src="images/backIcon.png" id="castBackButton" class="backButton" />
-      <div id="danielCast" class="castMember">
-        <div class="castAvatar"><img src="images/daniel.png" /></div>
-        <div class="castBio castBioRight">
-          <h1>daniel</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+      <div id="castBackground">
+        <div id="castHeader">
+          <h2>cast</h2>
+          <img src="images/backIcon.png" id="castBackButton" />
         </div>
-      </div>
-      <div id="sishCast" class="castMember">
-        <div class="castAvatar"><img src="images/sish.png" /></div>
-        <div class="castBio castBioLeft">
-          <h1>sish</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
-        </div>
-      </div>
-      <div id="daleCast" class="castMember">
-        <div class="castAvatar"><img src="images/dale.png" /></div>
-        <div class="castBio castBioRight">
-          <h1>dale</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+        <div id="castBody">
+          <div class="castMemberContainer" id="castDaniel">
+            <div class="castMemberForeground" id="castForegroundDaniel">
+              <div class="castAvatar"><img src="images/daniel.png" /></div>
+              <div class="castBio"><h2>daniel</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p></div>
+            </div>
+            <div class="castMemberBackground" id="castBackgroundDaniel"></div>
+          </div>
+          <div class="castMemberContainer" id="castSish">
+            <div class="castMemberForeground" id="castForegroundSish">
+              <div class="castAvatarReverse"><img src="images/sish.png" /></div>
+              <div class="castBioReverse"><h2>sish</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p></div>
+            </div>
+            <div class="castMemberBackground" id="castBackgroundSish"></div>
+          </div>
+          <div class="castMemberContainer" id="castDale">
+            <div class="castMemberForeground" id="castForegroundDale">
+              <div class="castAvatar"><img src="images/dale.png" /></div>
+              <div class="castBio"><h2>dale</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p></div>
+            </div>
+            <div class="castMemberBackground" id="castBackgroundDale"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -99,7 +107,15 @@
 
       <div class="episodeListContainer">
         <div id="episodeSelectContainer">
-          <div id="episodeSelect">select an episode <img src="images/downArrow.png" /></div>
+          <div id="episodeSelect">
+          <div id="episodeClickLink"></div>
+            <div id="episodeSelectText">
+              <p>select an episode</p>
+            </div>
+            <div id="episodeSelectIcon">
+              <img src="images/downArrow.png" />
+            </div>
+          </div>
           <img src="images/backIcon.png" id="episodeBackButton" class="backButton" />
           <div id="episodeSelectMenu" class="scrollStyle hidden">
             <ul>
@@ -210,7 +226,7 @@
   </div>
 
 <!-- RIGHT SLIDE END -->
-
+<footer>The LAN Party &copy; website design by Dale Spiteri</footer>
 </div> <!-- CONTAINER CLOSE -->
 
 <script src="script/episodeToggle.js"></script>

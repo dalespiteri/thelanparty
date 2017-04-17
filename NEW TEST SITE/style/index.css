@@ -109,7 +109,7 @@ a {
 
 .castBio h1 {
   color: white;
-  font-family: pixel;
+  font-family: 'pixel', monospace;
   text-transform: uppercase;
 }
 
