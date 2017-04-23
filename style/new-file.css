@@ -10,7 +10,7 @@
   height: 88%;
   min-height: 752px;
   width: 100%;
-  background: linear-gradient(#0091a5, #0061a5);
+  background: linear-gradient(#e82e69, #581636);
   overflow: hidden;
 }
 .currentEpisode {
@@ -224,7 +224,7 @@
   transition: all 0.25s;
 }
 .episodePlay:hover {
-  background-color: #113e53;
+  background-color: #fff;
 }
 #episode1 {
   background-image: url("../images/leagueoflegends.jpg");

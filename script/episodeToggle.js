@@ -19,18 +19,17 @@ $('#cast, #castBackButton').click(function () {
 	$('.castContainer').toggleClass('offscreenLeft');
   $('#castBackground').toggleClass('castBackgroundActive');
 });
+    
+$('#cast').click(function() {
+    $('#contactSlide').slideUp(50);
+});
 
 //contact toggle
 
-$('#contact')
+$('#contact').click(function() {
+   $('#contactSlide').slideToggle(200); 
+});
 
-	.mouseover(function() {
-	$('#contact').text("contact@theLANparty.com");
-	})
-
-	.mouseleave(function() {
-		$('#contact').text("contact");
-	});
 
 
 //EPISODE LIST FUNCTIONS //

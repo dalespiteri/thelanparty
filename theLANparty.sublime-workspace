@@ -5,7 +5,15 @@
 		[
 			[
 				"di",
-				"div\tTag"
+				"display"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"rgb",
+				"rgba()"
 			],
 			[
 				"back",
@@ -240,10 +248,6 @@
 				"ease-in-out"
 			],
 			[
-				"bord",
-				"border-color"
-			],
-			[
 				"background",
 				"background-color"
 			],
@@ -428,55 +432,19 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "NEW TEST SITE/index.html",
 			"settings":
 			{
-				"buffer_size": 11067,
+				"buffer_size": 11686,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "script/episodeToggle.js",
+			"file": "NEW TEST SITE/script/episodeToggle.js",
 			"settings":
 			{
-				"buffer_size": 2253,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style/general.css",
-			"settings":
-			{
-				"buffer_size": 589,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style/leftSlide.css",
-			"settings":
-			{
-				"buffer_size": 3390,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style/main.css",
-			"settings":
-			{
-				"buffer_size": 655,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style/mediaQueries.css",
-			"settings":
-			{
-				"buffer_size": 680,
+				"buffer_size": 2334,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -485,26 +453,25 @@
 			"file": "style/rightSlide.css",
 			"settings":
 			{
-				"buffer_size": 5146,
+				"buffer_size": 5180,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style/toggleClasses.css",
+			"file": "style/leftSlide.css",
 			"settings":
 			{
-				"buffer_size": 550,
+				"buffer_size": 4216,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "style/index.css",
+			"file": "NEW TEST SITE/style/general.css",
 			"settings":
 			{
-				"buffer_size": 9009,
-				"encoding": "UTF-8",
+				"buffer_size": 589,
 				"line_ending": "Windows"
 			}
 		}
@@ -541,23 +508,24 @@
 	},
 	"file_history":
 	[
+		"/D/Work/Web Dev/Test Zone/test.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/leftSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/index.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/toggleClasses.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/rightSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/mediaQueries.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/main.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/general.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/script/episodeToggle.js",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.html",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/index.html",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/script/episodeToggle.js",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/leftSlide.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/main.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/rightSlide.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/toggleClasses.css",
 		"/D/Work/Web Dev/LOW Website/Draft 4/script/productList.js",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/main.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/rightSlide.css",
 		"/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.html",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/mediaQueries.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftSlide.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/script/episodeToggle.js",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/toggleClasses.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/general.css",
-		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/index.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftTitle.css",
 		"/C/Users/Dale Spiteri/index.php",
 		"/D/Work/Web Dev/LOW Website/Draft 4/index.html",
@@ -579,7 +547,6 @@
 		"/D/Work/Web Dev/LOW Website/Draft 4/products.html",
 		"/D/Work/Web Dev/LOW Website/Draft 4/events.html",
 		"/D/Work/Web Dev/Test Zone/test.html",
-		"/D/Work/Web Dev/Test Zone/test.css",
 		"/D/Work/Web Dev/Test Zone/Slider/unslider-master/dist/css/unslider.css",
 		"/D/Work/Web Dev/Test Zone/Slider/unslider-master/dist/js/unslider-min.js",
 		"/D/Work/Web Dev/LOW Website/Draft 4/contact.html",
@@ -671,6 +638,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"leftslide",
 			"pixel",
 			"transitio",
 			"transform",
@@ -746,19 +714,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "NEW TEST SITE/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11067,
+						"buffer_size": 11686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								874,
-								874
+								4739,
+								4739
 							]
 						],
 						"settings":
@@ -771,24 +739,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "script/episodeToggle.js",
+					"file": "NEW TEST SITE/script/episodeToggle.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2253,
+						"buffer_size": 2334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1824,
-								1824
+								551,
+								551
 							]
 						],
 						"settings":
@@ -798,7 +766,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -807,24 +775,24 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 2,
-					"file": "style/general.css",
+					"file": "style/rightSlide.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 589,
+						"buffer_size": 5180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								587,
-								587
+								1813,
+								1813
 							]
 						],
 						"settings":
@@ -834,10 +802,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1259.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -846,15 +814,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3390,
+						"buffer_size": 4216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								546,
-								546
+								4213,
+								4213
 							]
 						],
 						"settings":
@@ -864,109 +832,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "style/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								644,
-								651
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "style/mediaQueries.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								218
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "style/rightSlide.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2911,
-								2911
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1890.0,
+						"translation.y": 2862.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "style/toggleClasses.css",
+					"buffer": 4,
+					"file": "NEW TEST SITE/style/general.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
@@ -987,37 +865,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "style/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9009,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								186
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
