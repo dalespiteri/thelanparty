@@ -56,12 +56,18 @@
   align-items: flex-start;
   overflow: hidden;
 }
+#contactContainer {
+  display: flex;
+  flex-direction: row;
+}
 #cast,
-#contact {
+#contact,
+#email {
   min-width: 100px;
   padding: 5px 10px;
   border: 1px solid white;
   margin-top: 7px;
+  margin-right: 5px;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -69,7 +75,14 @@
   font-family: 'Exo 2', sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
-  transition: min-width 1s;
+  transition: min-width 1s, opacity 0.5s;
+}
+#email {
+  cursor: auto;
+}
+.emailHidden {
+  display: none;
+  opacity: 0;
 }
 #cast,
 #contact,
