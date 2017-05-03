@@ -1,0 +1,245 @@
+/* RIGHT PLAYER DIV */
+
+#slideRight {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#playerContainer {
+  height: 88%;
+  min-height: 752px;
+  width: 100%;
+  background: linear-gradient(#0091a5, #0061a5);
+  overflow: hidden;
+}
+
+.currentEpisode {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0%;
+  transition: left 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 45px;
+}
+
+#player {
+  width: 100%;
+  height: 250px;
+  border: 10px solid white;
+  background-image: url(../images/osira.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+#playerPlayButton {
+  width: 90px;
+  height: 100%;
+  background-color: #00162e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  opacity: 0.75;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+#playerPlayButton i {
+  display: block;
+}
+
+#playerPlayButton:hover {
+  width: 100%;
+  height: 100%;
+}
+
+#episode {
+  width: 100%;
+  height: auto;
+  margin: 60px 0;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#episode h2 {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-family: 'pixel', monospace;
+  background-color: #00162e;
+  color: white;
+  text-align: right;
+  margin-bottom: 25px;
+  padding: 10px 40px;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+#episode p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: justify;
+  font-weight: 100;
+}
+
+#episodesLink button {
+  height: auto;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-weight: 300;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* HIDDEN EPISODE MENU */
+
+.episodeListContainer { /* List on Left side of the slide */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 100%;
+  bottom: 100%;
+  display: flex;
+  transition: left 0.5s;
+} 
+
+#episodeList {
+  width: 43%;
+  height: 100%;
+  background: linear-gradient(#0091a5, #0061a5);
+  border-right: 3pt solid white;
+  box-shadow: 10px 0 10px black;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+#episodeList::-webkit-scrollbar { 
+    display: none; 
+}
+
+#episodeList ul {
+  list-style: none;
+}
+
+#episodeList ul li {
+  width: 73%;
+  background-color: #00162e;
+  margin: 37px auto;
+  text-align: center;
+  padding: 12px;
+  font-family: 'pixel', monospace;
+  font-size: 34px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#episodeList ul li:hover {
+  color: #00162e;
+  background-color: #FFC420;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
+}
+
+#episodeList ul li:active {
+  background-color: yellow;
+}
+
+#episodeInfo { /* Right side of the slide - pic, play button, and episode description */
+  width: 57%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.episodePicContainer {
+  width: 100%;
+  height: 61%;
+  background-color: red;
+  position: relative;
+}
+
+#playButtonContainer {
+  width: 100%;
+  height: 4%;
+  background: linear-gradient(to right, #FFC420, #F68420);
+  font-size: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+#playButton {
+  height: 50%;
+}
+
+.episodeDesContainer {
+  width: 100%;
+  height: 35%;
+  background-color: #142D34;
+  position: relative;
+}
+
+.episodePic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+
+#episode12pic {
+  background-image: url('../images/overwatch.jpg');
+}
+
+#episode11pic {
+  background-image: url('../images/zelda.jpg');
+}
+
+#episode10pic {
+  background-image: url('../images/fez.jpg');
+}
+
+.episodeDes {
+  width: 100%;
+  height: 100%;
+  padding-top: 32px;
+  background: linear-gradient(#142D34, #000C0D);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.episodeDes p {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 100;
+  color: white;
+  padding: 0 32px;
+}

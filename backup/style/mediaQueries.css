@@ -11,12 +11,13 @@
   }
 
   .slideContainer {
-  	height: 800px;
+  	height: auto;
   }
 
 /*left slide*/
 
   #slideLeft {
+      height: 100vh;
   	margin-right: 0;
   }
 
@@ -32,12 +33,20 @@
 /*right slide*/
 
   #slideRight {
+      height: 96.5vh;
   	margin-left: 0;
   	display: block;
   }
 
   #playerContainer {
   	height: 100%;
+  }
+
+  footer {
+      height: 1.5vh;
+    position: static;
+    text-align: center;
+    margin: 1vh auto;
   }
 
 }
@@ -47,5 +56,31 @@
 	.slideContainer {
 		width: 100%;
 	}
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .currentEpisode {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .episode {
+        justify-content: center;
+    }
+    
+    #episode {
+        margin: 0;
+    }
+    
+    #episode h2 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #episode p {
+        display: none;
+    }
 }
 

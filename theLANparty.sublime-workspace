@@ -453,18 +453,18 @@
 			"file": "style/rightSlide.css",
 			"settings":
 			{
-				"buffer_size": 5180,
+				"buffer_size": 5172,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "style/leftSlide.css",
 			"settings":
 			{
-				"buffer_size": 4216,
+				"buffer_size": 4581,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -508,6 +508,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/Google Optimize/css/rightSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/Google Optimize/css/leftSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/Google Optimize/css/bd3d4ecd65.css",
 		"/D/Work/Web Dev/Test Zone/test.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/NEW TEST SITE/style/leftSlide.css",
 		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/index.css",
@@ -784,15 +787,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5180,
+						"buffer_size": 5172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1813,
-								1813
+								0,
+								0
 							]
 						],
 						"settings":
@@ -814,15 +817,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4216,
+						"buffer_size": 4581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4213,
-								4213
+								0,
+								0
 							]
 						],
 						"settings":

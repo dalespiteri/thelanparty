@@ -8,7 +8,7 @@
 }
 #playerContainer {
   height: 88%;
-  min-height: 752px;
+  min-height: 300px;
   width: 100%;
   background: linear-gradient(#0091a5, #0061a5);
   overflow: hidden;
@@ -176,43 +176,42 @@
 .episode {
   width: 100%;
   height: 100%;
-  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6%;
-  position: absolute;
-  left: 0;
-  top: 0;
   z-index: 0;
   opacity: 0;
-  transition: opacity 0.75s;
+  transition: all 0.5s;
 }
 .episode h1 {
   text-transform: uppercase;
   font-size: 4em;
   font-family: 'pixel', monospace;
+  margin-top: 100px;
   letter-spacing: 5px;
   color: white;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-  margin-top: 20%;
 }
 .episodeInfo {
   color: #00162e;
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 85%;
   height: auto;
-  font-size: 18px;
+  margin-bottom: 7.5%;
+  font-size: 1.25em;
   font-weight: 300;
   line-height: 22px;
   text-align: center;
 }
 .episodeInfo p {
   padding: 23px;
-  text-align: justify;
+  line-height: 1.5em;
 }
 .episodePlay {
   color: white;

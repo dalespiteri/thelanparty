@@ -11,12 +11,13 @@
   }
 
   .slideContainer {
-  	height: 800px;
+  	height: auto;
   }
 
 /*left slide*/
 
   #slideLeft {
+      height: 100vh;
   	margin-right: 0;
   }
 
@@ -32,12 +33,22 @@
 /*right slide*/
 
   #slideRight {
+      height: 97vh;
   	margin-left: 0;
   	display: block;
   }
 
   #playerContainer {
   	height: 100%;
+  }
+
+  footer {
+    height: 3vh;
+    position: static;
+    text-align: center;
+    display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
 }
@@ -47,5 +58,53 @@
 	.slideContainer {
 		width: 100%;
 	}
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .currentEpisode {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #episode {
+        margin: 0;
+    }
+    
+    .episode h1 {
+        font-size: 2.5em;
+    }
+    
+    #episode h2 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #episode p {
+        display: none;
+    }
+    
+    .episode p {
+        font-size: 16px;
+    }
+    
+    .castBio p,
+    .castBioReverse p {
+        display: none;
+    }
+    
+    .castBio h2,
+    .castBioReverse h2 {
+        font-size: 30pt;
+    }
+    
+}
+
+@media only screen and (max-width: 380px) {
+    #email {
+        font-size: 10px;
+        padding: 7px 5px;
+    }
 }
 

@@ -1,0 +1,556 @@
+@import "variables.less";
+
+@keyframes slide {
+  from {left: -100%; opacity: 0;}
+  to {left: 0%; opacity: 1;}
+}
+
+@keyframes slideRight {
+  from {right: -100%;}
+  to {right: 0%;}
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(../font/munro.ttf);
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.slideContainer {
+  width: 37%;
+  min-width: 500px;
+  max-width: 550px;
+  height: 100%;;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  background: @bgRadGrad;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* LEFT TITLE DIV */
+
+#slideLeft {
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.castContainer {
+  background: @orangeGrad;
+  position: relative;
+  width: 100%;
+  height: 88%;
+  bottom: 88%;
+  left: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.castMember {
+  width: 69%;
+  height: 24%;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sishCast {
+  flex-direction: row-reverse;
+}
+
+#sishCast .castAvatar img {
+  transform: scaleX(-1);
+}
+
+.castAvatar {
+  width: 29%;
+}
+
+.castAvatar img {
+  width: 100%;
+}
+
+.castBio {
+  position: relative;
+  width: 60%;
+  height: 85%;
+  padding: 20px;
+  color: black;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.castBio h1 {
+  color: white;
+  font-family: 'pixel', monospace;
+  text-transform: uppercase;
+}
+
+.castBioRight:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+}
+
+.castBioLeft:before {
+  content: '';
+  position: absolute;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid white;
+}
+
+#castClose, #backButton {
+  position: absolute;
+  width: 5%;
+  top: 10px;
+  right: 10px;
+  opacity: 0.75;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#backButton:hover {
+  opacity: 1;
+}
+
+#castClose:hover {
+  opacity: 1;
+}
+
+.titleDiv {
+  height: 88%;
+  width: 100%;
+  background: @orangeGrad;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  left: 0%;
+  transition: all 0.5s;
+}
+
+#logo {
+  width: 65%;
+  height: 275px;
+  position: relative;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo img {
+  width: 65%;
+}
+
+#logo p {
+  font-family: 'pixel', monospace; 
+  font-weight: normal; 
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+#titleBottom {
+  width: 90%;
+  height: 55px;
+  position: relative;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+#cast, #contact {
+  min-width: 100px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  margin-top: 7px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: min-width 1s;
+}
+
+#cast, #contact, #episodesLink {
+  background: linear-gradient(to right, rgba(0,0,0,0) 50%, #00162e 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.35s;
+}
+
+#cast:hover, #contact:hover, #episodesLink:hover {
+  background-position: -100% 0;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#facebook, #twitter {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 2px;
+  position: relative;
+  top: 4px;
+  transition: color 0.1s;
+}
+
+#facebook:hover, #twitter:hover {
+  color: #00162e;
+}
+
+/* RIGHT PLAYER DIV */
+
+#slideRight {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#playerContainer {
+  height: 88%;
+  width: 100%;
+  background: @lightBlueGrad;
+  overflow: hidden;
+}
+
+.currentEpisode {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0%;
+  transition: left 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 45px;
+}
+
+#player {
+  width: 100%;
+  height: 250px;
+  border: 10px solid white;
+  background-image: url(../images/osira.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+#playerPlayButton {
+  width: 90px;
+  height: 100%;
+  background-color: #00162e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  opacity: 0.75;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+#playerPlayButton i {
+  display: block;
+}
+
+#playerPlayButton:hover {
+  width: 100%;
+  height: 100%;
+}
+
+#episode {
+  width: 100%;
+  height: auto;
+  margin: 60px 0;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#episode h2 {
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+#episode h2 {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-family: 'pixel', monospace;
+  background-color: #00162e;
+  color: white;
+  padding: 10px 40px;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+#episode p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: justify;
+  font-weight: 100;
+}
+
+#episodesLink button {
+  height: auto;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-weight: 300;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* HIDDEN EPISODE MENU */
+
+.episodeListcontainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 100%;
+  bottom: 100%;
+  display: flex;
+  transition: left 0.5s;
+} 
+
+#episodeList {
+  width: 43%;
+  height: 100%;
+  background: @lightBlueGrad;
+  border-right: 3pt solid white;
+  box-shadow: 10px 0 10px black;
+  overflow: scroll;
+}
+
+#episodeList::-webkit-scrollbar { 
+    display: none; 
+}
+
+#episodeList ul {
+  list-style: none;
+}
+
+#episodeList ul li {
+  width: 73%;
+  background-color: @bgColor;
+  margin: 37px auto;
+  text-align: center;
+  padding: 12px;
+  font-family: 'pixel', monospace;
+  font-size: 34px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#episodeList ul li:hover {
+  color: #00162e;
+  background-color: #FFC420;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
+}
+
+#episodeList ul li:active {
+  background-color: yellow;
+}
+
+#episodeInfo {
+  width: 57%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.episodePicContainer {
+  width: 100%;
+  height: 61%;
+  background-color: red;
+  position: relative;
+}
+
+#playButtonContainer {
+  width: 100%;
+  height: 4%;
+  background: linear-gradient(to right, #FFC420, #F68420);
+  font-size: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+#playButton {
+  height: 50%;
+}
+
+.episodeDesContainer {
+  width: 100%;
+  height: 35%;
+  background-color: #142D34;
+  position: relative;
+}
+
+.episodePic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+
+#episode12pic {
+  background-image: url('../images/overwatch.jpg');
+}
+
+#episode11pic {
+  background-image: url('../images/zelda.jpg');
+}
+
+#episode10pic {
+  background-image: url('../images/fez.jpg');
+}
+
+.episodeDes {
+  width: 100%;
+  height: 100%;
+  padding-top: 32px;
+  background: linear-gradient(#142D34, #000C0D);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.episodeDes p {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 100;
+  color: white;
+  padding: 0 32px;
+}
+
+.visibleLeft {
+  left: 100%;
+  z-index: 2;
+}
+
+.visibleRight {
+  right: 100%;
+  z-index: 2;
+}
+
+/* JAVASCRIPT TOGGLE CLASSES */
+
+.moveLeft {
+  left: -100%;
+  transition: all 0.5s;
+}
+
+.offscreenLeft {
+  left: 0%;
+  transition: all 0.5s;
+}
+
+.active {
+  animation-name: slide;
+  animation-duration: 0.25s;
+}
+
+.active2 {
+  animation-name: slideRight;
+  animation-duration: 0.25s;
+}
+
+.slideGoneUp {
+  position: relative;
+  bottom: 100%;
+  transition: all 0.5s;
+}
+
+.slideDown {
+  bottom: 0%;
+  transition: all 0.5s;
+}
+
+.slideGoneDown {
+  position: relative;
+  top: 100%;
+  transition: all 0.5s;
+}
+
+.slideUp {
+  top: 0%;
+  transition: all 0.5s;
+}

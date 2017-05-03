@@ -1,64 +1,93 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-//Intro Slides
+    //Intro Slides
 
-$('.slideGoneUp').addClass('slideDown');
-$('.slideGoneDown').addClass('slideUp');
+    $('.slideGoneUp').addClass('slideDown');
+    $('.slideGoneDown').addClass('slideUp');
 
-//episode slide toggle
+    //episode slide toggle
 
-$('#episodesLink button, #backButton').click(function () {
-	$('.currentEpisode').toggleClass('moveLeft');
-	$('.episodeListContainer').toggleClass('offscreenLeft');
-});
+    $('#episodesLink button, #episodeBackButton').click(function () {
+        $('.currentEpisode').toggleClass('moveLeft');
+        $('.episodeListContainer').toggleClass('offscreenLeft');
+    });
 
-//cast slide toggle
+    //cast slide toggle
 
-$('#cast, #castClose').click(function () {
-	$('.titleDiv').toggleClass('moveLeft');
-	$('.castContainer').toggleClass('offscreenLeft');
-});
+    $('#cast, #castBackButton').click(function () {
+        $('.titleDiv').toggleClass('moveLeft');
+        $('.castContainer').toggleClass('offscreenLeft');
+        $('#castBackground').toggleClass('castBackgroundActive');
+    });
 
-//Episode List Slides
+    //contact toggle
 
-$('.epLink').click(function() {
-  $('.episodePic').removeClass('active');
-  $('.episodeDes').removeClass('active2');
-});
+    $('#contactContainer').hover(
+        function () {
+            $('#email').removeClass('emailHidden');
+        },
+        function () {
+            $('#email').addClass('emailHidden');
+        });
 
-$('#ep12link').click(function() {
-  $('#episode12des').addClass('active2');
-  $('#episode12pic').addClass('active');
-  $('#episode12pic').appendTo($('.episodePicContainer'));
-  $('#episode12des').appendTo($('.episodeDesContainer'));
+    //EPISODE LIST FUNCTIONS //
 
-});
+    function openDropdown() {
+        // Show the dropdown
+        $('#episodeSelectMenu').toggleClass('hidden')
 
-$('#ep11link').click(function() {
-  $('#episode11des').addClass('active2');
-  $('#episode11pic').addClass('active');
-  $('#episode11pic').appendTo($('.episodePicContainer'));
-  $('#episode11des').appendTo($('.episodeDesContainer'));
+        // Listen for clicks on the document
+        $(document).on('click', closeDropdown)
+    }
 
-});
+    function closeDropdown(event) {
+        // Get the jQuery version of the event.target element
+        const target = $(event.target)
 
-$('#ep10link').click(function() {
-  $('#episode10des').addClass('active2');
-  $('#episode10pic').addClass('active');
-  $('#episode10pic').appendTo($('.episodePicContainer'));
-  $('#episode10des').appendTo($('.episodeDesContainer'));
-});
+        // Make sure that the dropdown or button didn't get clicked
+        if (!target.is('#episodeClickLink')) {
+            // Hide the dropdown
+            $('#episodeSelectMenu').addClass('hidden')
 
-//contact toggle
+            // Stop listening for clicks on the document
+            $(document).off('click', closeDropdown)
+        }
+    }
 
-$('#contact')
 
-	.mouseover(function() {
-	$('#contact').text("contact@theLANparty.com");
-	})
+    // Add the event listener we need to start with
+    $('#episodeClickLink').on('click', openDropdown)
 
-	.mouseleave(function() {
-		$('#contact').text("contact");
-	});
 
-});
+    //EPISODE LIST FUNCTIONS END//
+
+    //episode list episode switch
+
+    $('.epListItem').click(function () {
+        $('.episode').removeClass('episodeActive');
+    });
+
+    function episodeSwitch(episodeListNumber, episodeID) {
+        $(episodeListNumber).click(function () {
+            $(episodeID).addClass('episodeActive');
+        });
+    }
+
+    episodeSwitch('#ep12ListItem', '#episode12');
+    episodeSwitch('#ep11ListItem', '#episode11');
+    episodeSwitch('#ep10ListItem', '#episode10');
+    episodeSwitch('#ep9ListItem', '#episode9');
+    episodeSwitch('#ep8ListItem', '#episode8');
+    episodeSwitch('#ep7ListItem', '#episode7');
+    episodeSwitch('#ep6ListItem', '#episode6');
+    episodeSwitch('#ep5ListItem', '#episode5');
+    episodeSwitch('#ep4ListItem', '#episode4');
+    episodeSwitch('#ep3ListItem', '#episode3');
+    episodeSwitch('#ep2ListItem', '#episode2');
+    episodeSwitch('#ep1ListItem', '#episode1');
+
+    //cast background//
+
+
+
+}); // close document ready

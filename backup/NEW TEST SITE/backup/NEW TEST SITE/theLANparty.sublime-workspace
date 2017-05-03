@@ -1,0 +1,970 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ro",
+				"row-reverse"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"transiti",
+				"transition"
+			],
+			[
+				"tranfo",
+				"transform"
+			],
+			[
+				"shad",
+				"text-shadow"
+			],
+			[
+				"fe",
+				"flex-start"
+			],
+			[
+				"f",
+				"flex-start"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"pos",
+				"background-position"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"fl",
+				"flex-end"
+			],
+			[
+				"war",
+				"warhammer"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"ind",
+				"text-indent"
+			],
+			[
+				"posi",
+				"background-position"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"siz",
+				"box-sizing"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"backu",
+				"background-image"
+			],
+			[
+				"shadow",
+				"box-shadow"
+			],
+			[
+				"alite",
+				"align-content"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"texal",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"tablec",
+				"table-cell"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"transition",
+				"transition-delay"
+			],
+			[
+				"infini",
+				"infinity"
+			],
+			[
+				"malif",
+				"malifaux"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"hidden",
+				"hiddenHours"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"ho",
+				"hoverThing"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"social",
+				"socialMedia"
+			],
+			[
+				"border-boto",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"n",
+				"new_slide_index"
+			],
+			[
+				"slid",
+				"slide_index"
+			],
+			[
+				"slide",
+				"slide_count"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"texttr",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"top",
+				"border-top"
+			],
+			[
+				"botto",
+				"border-bottom"
+			],
+			[
+				"transform",
+				"text-transform"
+			],
+			[
+				"spacin",
+				"letter-spacing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration-style"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"to",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"text-dec",
+				"text-decoration"
+			],
+			[
+				"col",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style/mediaQueries.css",
+			"settings":
+			{
+				"buffer_size": 595,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5722,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 258,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/rightSlide.css",
+			"settings":
+			{
+				"buffer_size": 4344,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/leftSlide.css",
+			"settings":
+			{
+				"buffer_size": 3530,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/rightSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftSlide.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/script/episodeToggle.js",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.html",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/toggleClasses.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/general.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/main.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/index.css",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/style/leftTitle.css",
+		"/C/Users/Dale Spiteri/index.php",
+		"/D/Work/Web Dev/LOW Website/Draft 4/index.html",
+		"/C/Users/Dale Spiteri/Desktop/test.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/products.js",
+		"/C/Users/Dale Spiteri/Desktop/dalespiteri.github.io/index.css",
+		"/D/Work/Web Dev/theLANparty/index.css",
+		"/D/Work/Web Dev/theLANparty/index.html",
+		"/D/Work/Web Dev/theLANparty/dalespiteri.github.io/index.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/slider.js",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/productList.js",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/contactSlide.js",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/events.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/slider.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/products.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/main.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/header.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/footer.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/style/contactDiv.css",
+		"/D/Work/Web Dev/LOW Website/Draft 4/products.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/events.html",
+		"/D/Work/Web Dev/Test Zone/test.html",
+		"/D/Work/Web Dev/Test Zone/test.css",
+		"/D/Work/Web Dev/Test Zone/Slider/unslider-master/dist/css/unslider.css",
+		"/D/Work/Web Dev/Test Zone/Slider/unslider-master/dist/js/unslider-min.js",
+		"/D/Work/Web Dev/LOW Website/Draft 4/contact.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/contact2.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/header.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/products.html",
+		"/D/Work/Web Dev/LOW Website/Draft 4/script/index.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/header.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/index.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/script/contactSlide.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/main.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/products.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/contactDiv.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/index.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/blueberry.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/index2.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/header2.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/contactDiv.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style/footer.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/script/jquery.blueberry.js",
+		"/D/Work/Web Dev/Test Zone/Slider/blueberry/index.html",
+		"/D/Work/Web Dev/LOW Website/Draft 2/index.html",
+		"/D/Work/Web Dev/Test Zone/Slider/blueberry/jquery.blueberry.js",
+		"/D/Work/Web Dev/Test Zone/Slider/blueberry/blueberry.css",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/js/jquery-1.10.2.min.js",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/js/jquery.sldr.js",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/css/styles.css",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/index.html",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/css/ie8.css",
+		"/D/Work/Web Dev/Test Zone/Slider/jquery.sldr-master/css/ie7.css",
+		"/D/Work/Web Dev/Test Zone/test.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/script/index.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/indexStyle.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/script/footer.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/script/products.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/footerScript.js",
+		"/D/Work/Web Dev/Test Zone/Hover-master/css/hover.css",
+		"/D/Work/Web Dev/Test Zone/Hover-master/index.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/test.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/test.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/test.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/hoursTest.html",
+		"/C/Users/Dale Spiteri/AppData/Local/Temp/Temp1_FadeOutBottom.zip/FadeOutBottom/style.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/style.css",
+		"/D/Work/Web Dev/LOW Website/Draft 3/map.html",
+		"/D/Work/Web Dev/LOW Website/Draft 3/indexScript.js",
+		"/E/LOW Website/Draft 3/indexScript.js",
+		"/E/LOW Website/Actual Web Files/index.html",
+		"/E/LOW Website/Actual Web Files/style.css",
+		"/E/LOW Website/Actual Web Files/indexScript.js",
+		"/D/Work/Web Dev/LOW Website/Slider/slider.html",
+		"/C/Users/Dale Spiteri/Desktop/simple-jquery-slideshow/jquery-1.2.6.min.js",
+		"/D/Work/Web Dev/LOW Website/Slider/slider.css",
+		"/D/Work/Web Dev/LOW Website/Slider/slider.js",
+		"/D/Work/Web Dev/LOW Website/Draft 3/nav bar.html",
+		"/D/Work/Web Dev/LOW Website/Draft 2/indexcss2.css",
+		"/D/Work/Web Dev/LOW Website/Draft 2/index2.html",
+		"/D/Work/Web Dev/LOW Website/Draft 1/index2.html",
+		"/D/Work/Web Dev/LOW Website/Draft 1/index.html",
+		"/D/Work/Web Dev/LOW Website/Slider/slider",
+		"/D/Work/Web Dev/LOW Website/Draft 2/indexcss.css",
+		"/D/Work/Web Dev/LOW Website/Draft 1/main.css",
+		"/D/Work/Web Dev/LOW Website/Draft 2/indexcss",
+		"/D/Work/Web Dev/LOW Website/Draft 2/index",
+		"/D/Work/Web Dev/LOW Website/index.html",
+		"/D/Work/Web Dev/LOW Website/main.css",
+		"/D/Work/Web Dev/LOW Website/style/main2.css",
+		"/D/Work/Web Dev/LOW Website/index2.html",
+		"/D/Work/Web Dev/LOW Website/index",
+		"/C/Users/Dale Spiteri/AppData/Local/Temp/Temp1_Hover-master.zip/Hover-master/css/hover.css",
+		"/C/Users/Dale Spiteri/AppData/Local/Temp/Temp2_Hover-master.zip/Hover-master/css/hover.css",
+		"/D/Work/Web Dev/LOW Website/test.html",
+		"/D/Work/Web Dev/LOW Website/test",
+		"/D/Work/Web Dev/LOW Website/indexstyle.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"transitio",
+			"transform",
+			"box",
+			"slideRight",
+			"visibleLeft",
+			"visibleRight",
+			"15%",
+			"20%",
+			"Pixel",
+			"pixel",
+			"SFPixelateRegular",
+			"div id=\"episodeThumb",
+			"episodePhoto",
+			"<img src=\"images/junkratThumb.png\" />",
+			"test",
+			"top",
+			".main",
+			"#ddd",
+			"black",
+			"Tuesday",
+			"Monday",
+			"Sunday",
+			"Saturday",
+			"-->",
+			"<!--",
+			".header",
+			"50",
+			"jpg",
+			"png",
+			"50",
+			"margin",
+			"100px",
+			"#ddd",
+			"4c4c4c",
+			"ddd",
+			"#262626, black",
+			"#262626;",
+			"#contact",
+			"45",
+			"asp",
+			" class=\"hvr-sweep-to-top\"",
+			"hvr-sweep-to-bottom",
+			"bottom",
+			"hvr-sweep-to-bottom",
+			"header",
+			"0.1",
+			"hvr-sweep-to-bottom",
+			"hang",
+			"hvr-underline-from-center",
+			"hvr-un",
+			"hvr-shutter-out-vertical",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style/mediaQueries.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								593,
+								593
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Work/Web Dev/LOW Website/Draft 4/style/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "style/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style/rightSlide.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "style/leftSlide.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.511979166667,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "theLANparty.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Dale Spiteri\\Desktop\\dalespiteri.github.io\\theLANparty.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

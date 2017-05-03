@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Lan Party: Gaming Podcast</title>
+  <link rel="stylesheet" type="text/css" href="style/general.css">
+  <link rel="stylesheet" type="text/css" href="style/leftSlide.css">
+  <link rel="stylesheet" type="text/css" href="style/rightSlide.css">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/toggleClasses.css">
+  <link rel="stylesheet" type="text/css" href="style/mediaQueries.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/bd3d4ecd65.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+
+<div id="container">
+
+<!-- LEFT SLIDE -->
+
+  <div id="slideLeft" class="slideContainer">
+
+<!-- TITLE PAGE SLIDE -->
+
+    <div class="slide titleDiv slideGoneUp">
+
+      <div id="logo">
+        <img src="images/logo.png">
+        <p>Weekly musing into the world of gaming
+        from ugly nerds, and married virgins.</p>
+      </div>
+
+      <div id="titleBottom">
+        <div id="buttons">
+          <div id="cast">
+            <p>cast</p>
+          </div>
+          <div id="contact">
+            <p>contact</p>
+          </div>
+        </div>
+        <div id="social">
+          <div id="facebook"><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+          <div id="twitter"><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </div>
+
+<!-- OFFSCREEN CAST SLIDE -->
+
+    <div class="castContainer">
+    <img src="images/backIcon.png" id="castBackButton" class="backButton" />
+      <div id="danielCast" class="castMember">
+        <div class="castAvatar"><img src="images/daniel.png" /></div>
+        <div class="castBio castBioRight">
+          <h1>daniel</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+        </div>
+      </div>
+      <div id="sishCast" class="castMember">
+        <div class="castAvatar"><img src="images/sish.png" /></div>
+        <div class="castBio castBioLeft">
+          <h1>sish</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+        </div>
+      </div>
+      <div id="daleCast" class="castMember">
+        <div class="castAvatar"><img src="images/dale.png" /></div>
+        <div class="castBio castBioRight">
+          <h1>dale</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
+        </div>
+      </div>
+    </div>
+
+<!-- CAST SLIDE END -->
+
+  </div> <!-- LEFT SLIDE END -->
+
+<!-- RIGHT SLIDE -->
+
+  <div id="slideRight" class="slideContainer">
+    <div id="playerContainer" class="slide, slideGoneDown">
+
+<!-- CURRENT EPISODE -->
+
+      <div class="players, currentEpisode">
+        <div id="player"><div id="playerPlayButton"><i class="fa fa-play" aria-hidden="true"></i></div></div>
+        <div id="episode">
+          <h2>episode 12</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat null</p>
+        </div>
+        <div id="episodesLink"><button>full episode list</button>
+        </div>
+      </div>
+
+<!-- OFF SCREEN EPISODE LIST -->
+
+      <div class="episodeListContainer">
+        <div id="episodeSelectContainer">
+          <div id="episodeSelect">select an episode &ensp;<i class="fa fa-sort-desc" aria-hidden="true"></i></div>
+          <img src="images/backIcon.png" id="episodeBackButton" class="backButton" />
+          <div id="episodeSelectMenu" class="scrollStyle hidden">
+            <ul>
+              <li id="ep12ListItem" class="epListItem">episode 12</li>
+              <li id="ep11ListItem" class="epListItem">episode 11</li>
+              <li id="ep10ListItem" class="epListItem">episode 10</li>
+              <li id ="ep9ListItem" class="epListItem">episode 9</li>
+              <li id ="ep8ListItem" class="epListItem">episode 8</li>
+              <li id ="ep7ListItem" class="epListItem">episode 7</li>
+              <li id ="ep6ListItem" class="epListItem">episode 6</li>
+              <li id ="ep5ListItem" class="epListItem">episode 5</li>
+              <li id ="ep4ListItem" class="epListItem">episode 4</li>
+              <li id ="ep3ListItem" class="epListItem">episode 3</li>
+              <li id ="ep2ListItem" class="epListItem">episode 2</li>
+              <li id ="ep1ListItem" class="epListItem">episode 1</li>
+            </ul>
+          </div>
+        </div>
+        <div class="episode episodeActive" id="episode12">
+          <h1>episode 12</h1>
+          <div class="episodeInfo" id="episode12Info">
+            <p>The guys talk about the upcoming Overwatch patch and the hinted release of a new tank character. Dave chugs a das boot. Ian pontificates.</p>
+            <div class="episodePlay" id="episode12Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode11">
+          <h1>episode 11</h1>
+          <div class="episodeInfo" id="episode11Info">
+            <p>Dale watches Indie Game: The Movie, and we talk about how indie gaming has transformed Steam and which games we most look forward to this year.</p>
+            <div class="episodePlay" id="episode11Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode10">
+          <h1>episode 10</h1>
+          <div class="episodeInfo" id="episode10Info">
+            <p>The Nintendo Switch is announced and we take a trip down memory lane to discuss the storied history of Nintendo.</p>
+            <div class="episodePlay" id="episode10Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode9">
+          <h1>episode 9</h1>
+          <div class="episodeInfo" id="episode9Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode9Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode8">
+          <h1>episode 8</h1>
+          <div class="episodeInfo" id="episode8Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode8Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode7">
+          <h1>episode 7</h1>
+          <div class="episodeInfo" id="episode7Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode7Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode6">
+          <h1>episode 6</h1>
+          <div class="episodeInfo" id="episode6Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode6Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode5">
+          <h1>episode 5</h1>
+          <div class="episodeInfo" id="episode5Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode5Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode4">
+          <h1>episode 4</h1>
+          <div class="episodeInfo" id="episode4Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode4Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode3">
+          <h1>episode 3</h1>
+          <div class="episodeInfo" id="episode3Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode3Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode2">
+          <h1>episode 2</h1>
+          <div class="episodeInfo" id="episode2Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode2Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="episode" id="episode1">
+          <h1>episode 1</h1>
+          <div class="episodeInfo" id="episode1Info">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+            <div class="episodePlay" id="episode1Play"><i class="fa fa-play" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+
+<!-- EPIDOSE LIST END -->
+
+    </div>
+  </div>
+
+<!-- RIGHT SLIDE END -->
+
+</div> <!-- CONTAINER CLOSE -->
+
+<script src="script/episodeToggle.js"></script>
+</body>
+</html>

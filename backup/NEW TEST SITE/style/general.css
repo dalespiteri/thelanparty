@@ -26,3 +26,12 @@ a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
+
+footer {
+  color: white;
+  font-size: 1.5vh;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  opacity: 0.8;
+}
